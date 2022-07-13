@@ -22,7 +22,7 @@ public class GraphApi {
     }
 
     // get graph's name
-    public String getGraphName(){
+    public String getGraphName() {
         return graphName;
     }
 
@@ -36,12 +36,21 @@ public class GraphApi {
         return edges[index];
     }
 
+    //TODO get in edge
+    public int[] getInEdge(int index) {
+        return null;
+    }
+
+    public int[] getOutEdge(int index) {
+        return null;
+    }
+
     //get all edge
     public int[][] getAllEdge() {
         return edges;
     }
 
-    public int getVertexSize(){
+    public int getVertexSize() {
         return vertex.length;
     }
 

@@ -13,5 +13,5 @@ List of supported graph algorithms
   1. PageRank
 
 - **Path finding**
-  1. Breath First Search
+  1. Breadth First Search
   2. Depth First Search
